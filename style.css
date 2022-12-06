@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: darkgrey;
+    padding: 10px;
+    text-align: right;
+}
+
+
+.header ul li {
+    display: inline;
+    padding: 10px;
+    background: orange;
+    margin-right: 10px;
+}
+
+.header ul li a { 
+    text-decoration: none;
+}
+
+.container .row {
+    display: flex;
+}
+
+.gallery {
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+    color:white;
+}
+
+.gallery img {
+    width: 400px;
+    height: 400px;
+}
+
+.footer {
+    text-align: center;
+    padding: 5px 0;
+    background: chocolate;
+}
+
+.header {
+    text-align: center;
+    padding: 5px 0;
+    background: chocolate;
+}
+
+.logo{
+    flex-basis: 20px;
+}
+.logo img{
+    width: 250px;
+}
